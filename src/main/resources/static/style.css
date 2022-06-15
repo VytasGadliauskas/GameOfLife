@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.gameMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    border:solid 2px;
+    border-color: blue;
+    background-color: gold;
+    margin-top: 10px;
+}
+
+button{
+    padding: 10px;
+}
+
+.gameField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border: solid 2px;
+    border-color: blue;
+    background-color: cadetblue;
+}
+
+.fieldElement{
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    background-color:burlywood 
+}
+
+.fieldElementX{
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    background-color: red;
+}
